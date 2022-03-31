@@ -20,8 +20,8 @@
   <link rel="shortcut icon" href="./categories/data/favicon-gsmblog-16x16-png.png" type="image/x-icon" sizes="16x16">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
   <title>Emigration Visionpk</title>
 </head>
 
@@ -30,57 +30,56 @@
     <div class="container">
       <div class="page-header__content">
         <div id="logo">
-          <p><a  onclick="wReload()" target="_parent">Emigration</a></p>
+          <p style="font-size: 32px;font-weight: bold;color:#ff6700"><a onclick="wReload()"
+              target="_parent">Emigration</a></p>
         </div>
         <nav>
-  
+
           <ul role="list" class="nav-list flex-group" style="margin:auto 0;">
             <li>
               <a onclick="wReload()">Home</a>
             </li>
             <li>
-              <a onclick="window.open('')">Faq</a>
+              <a onclick="window.open('./assets/faq.html')">Faq</a>
             </li>
             <li>
-              <a onclick="window.open('')">Contact</a>
+              <a onclick="window.open('./assets/contact.html')">Contact</a>
             </li>
             <li>
-              <a onclick="window.open('')">Policy</a>
-            </li>
-            <li>
-              <a onclick="window.open('')">About Us</a>
+              <a onclick="window.open('./assets/about.html')">About Us</a>
             </li>
           </ul>
-        </nav>
+          </nav>
       </div>
+
     </div>
   </header>
   <div class="wmain">
     <div id="slider" style="overflow: hidden;height: 300px;">
       <div class="overl" style="opacity: 0.9;">
-      <div class="slideshow-container">
+        <div class="slideshow-container">
 
-        <div class="mySlides fade">
-          <img src="./assets/usa-1.jpg" style="width:100%">
+          <div class="mySlides fade">
+            <img src="/assets/usa-1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="/assets/usa.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="/assets/usa-1.jpg" style="width:100%">
+          </div>
+
         </div>
-
-        <div class="mySlides fade">
-          <img src="./assets/usa.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-          <img src="./assets/usa-1.jpg" style="width:100%">
-        </div>
-
       </div>
-    </div>
       <div class="overlay" style="position: relative;
       top: -30%;
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;">
-        <h1>Emigration pakistan</h1>
-        <p>Some Details</p>
+        <h1 style="color: #ff9248;">Emigration pakistan</h1>
+        <p style="color: #ff9248;">Some Details</p>
         <a href="#">Apply Now</a>
       </div>
       <br>
@@ -91,93 +90,110 @@
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
 
-   
+
     </div>
 
-    <section>
-      <figure>
-        test test test test test test test test test test test test test test test test test
-      </figure>
-    </section>
-    </div>
-    <footer class="site-footer" >
-      <Div class="f1" ><h1>Emigration</h1>
-        <p>© 2022 Emigration. Made 💕 by <a id="inFo" onclick="window.open('https://github.com/fahad15090')"><span class="bold">Fahad</span></a></p>
-      </Div>
-      <Div class="f2">
-        <h1>Contact</h1> 
-        <p>Tel: +92348-4715090</p>
-        <p>Email: <a  href="mailto:fahadgujjar4994@gmail.com" style="color: var(--clr-primary-200);">fahadgujjar4994@gmail.com</a></p>
-      
-      </Div>
-</footer>
+    <main>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <article class="main-article">
+        <div class="container container--narrow flow">
 
-    <script>
-      let slideIndex = 0;
-      showSlides();
+          <h1 class="article-title">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+          <figure class="main-article__figure">
+            <img src="/assets/usa.jpg" style="margin: 50px auto;width: 300px;" alt="">
+            <figcaption>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </figcaption>
+          </figure>
+          <img src="/assets/usa-1.jpg" style="margin: 50px auto;" alt="img">
+          <p id="h-parag" style="color: var(--clr-primary-400);font-size: 32px;font-family:'Roboto Slab';">
+            Title</p>
+          <figure id="paragraph">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <br>
+            <br>
+            
+          </figure>
+          <p id="h-parag" style="color: var(--clr-primary-400);font-size: 32px;font-family:'Roboto Slab';">
+            Title</p>
+          <figure id="sub-paragraph">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <br>
 
-      function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1 }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 6000); // Change image every 2 seconds
+            <br>
+            <br>
+            <br>
+            <h3>Here are some steps</h3>
+            <br>
+            <ul>
+              <li>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </li>
+              <li> 
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </li>
+              <li>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </li>
+              <span class="bold">Lorem Ipsum</span>
+
+            </ul>
+          </figure>
+
+        </div>
+      </article>
+    </main>
+  </div>
+  <footer class="site-footer">
+    <Div class="f1">
+      <h1>Emigration</h1>
+      <p>© 2022 Emigration. Made 💕 by <a id="inFo" onclick="window.open('https://github.com/fahad15090')"><span
+            class="bold">Fahad</span></a></p>
+    </Div>
+    <Div class="f2">
+      <h1>Contact</h1>
+      <p>Tel: +92348-4715090</p>
+      <p>Email: <a href="mailto:fahadgujjar4994@gmail.com"
+          style="color: var(--clr-primary-200);">fahadgujjar4994@gmail.com</a></p>
+
+    </Div>
+  </footer>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
       }
-    </script>
-  <style>
-      footer{display: flex;text-align: center;justify-content: space-around;position:relative;width: 100%;bottom: 0;}
-  footer .f1 {margin: auto 0;}
-  @media (max-width:1200px) {
-    footer{flex-direction: column;height: 200px;bottom: -9px !important;}
-    footer .f1 {margin: 0 0 10px 0;}
-    #logo {
-    margin: 0 0 0 10px;
-  }
-  #logo p{font-size: 28px;
-font-weight: bold;color:#ff6700}
-
-  img .logoo {
-    width: 150px;
-  }
-
-  nav {
-    display: flex;
-  }
-
-  nav ul {
-    margin: auto 0;
-  }
-  svg {width: 150px;}
-  svg .cls-2 {
-    opacity: 0;
-    animation: flashB 1s cubic-bezier(0.645,
-        0.045, 0.355, 1) infinite;
-  }
-  @media (max-width: 1220px) {
-    #logo {
-      margin: 0 0 10 0;
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 6000); // Change image every 2 seconds
     }
-    svg{width: 100px;}
-  }
-  }
-  </style>
-    <!-- <script>
+  </script>
+
+  <!-- <script>
     $("iframe").on('load', function () {
       document.title = document.getElementById("iframe").contentDocument.title;
     });
   </script> -->
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
